@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
+# Auto Normalize All Text Files To LF In Repo, Use CRLF In Working Directory On Windows
 * text=auto
+# Explicitly Declare File Types (Optional But Safer)
+*.c		text
+*.cpp	text
+*.h		text
+*.cs	text
+*.txt	text
+*.md	text
+*.xml	text
+*.json	text
+*.html	text
+*.css	text
+*.js	text
+*.ts	text
+*.svg	text
+*.csv	text
+*.ini	text
+*.yaml	text
+*.yml	text
+*.st    linguist-language=Pascal
